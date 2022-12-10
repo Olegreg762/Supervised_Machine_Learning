@@ -2,11 +2,11 @@
 
 ## $Overview$ $of$ $the$ $Analysis$
 ---
-The purpose of this analysis was to determine if the Machine learning algorithm could accurately predict if a loan was high risk or healthy.<br>
+The purpose of this analysis was to determine if the Machine learning algorithm could accurately predict if a loan would fall into the category of `High Risk Loans '1'` or `Healthy Loans '0'`.<br>
 The financial data used to train the machine was supervised to enable better training in the prediction and accuracy.<br>
 Using the financial data provided the model was going to attempt to identifiy `Healthy Loans '0'` and  `High Risk Loans '1'` so the institution would be better equiped to make risk assestments.<br>
-The machine learning process I had to take the data model it, then fit that model into the algorithm and then make the predictions.<br>
-This was done using methods such as `LogisticRegression` and `RandomOverSampler`.<br>
+The machine learning process that was used took the data to model it, then fit that model into the algorithm and to then make the predictions.<br>
+This was done using the model `train_test_split` from `sklearn` library and used methods such as `train_test_split`, `LogisticRegression` and from the `imblearn` library `RandomOverSampler`.<br>
 
 ## $Results$
 ---
