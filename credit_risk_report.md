@@ -39,5 +39,6 @@ This was done using the model `train_test_split` from `sklearn` library and used
 The Machine Learning Model 2 that used the `RandomOverSampler` function produced the most accurate results when identifying `High Risk Loans '1'`.<br>
 Determining which loans are `High Risk Loans '1'` loans would be the more prudent<br>
 value to ascertain as there is more financial risk associated with these loans.<br>
+Both models did have indicators that suggest the models were overfitted.<br>
 
-With more training data points with higher `High Risk Loans '1'` instances I would recommend model 2.<br> The reasoning behind this decision is it showed a higher accuracy with finding `High Risk Loans '1'` while maintaining nearly the same level of `Healthy Loans '0'` identification.
+With more training data points with higher `High Risk Loans '1'` instances and model adjusting to make it more correctly fitted I would recommend model 2.<br> The reasoning behind this decision is it showed a higher accuracy with finding `High Risk Loans '1'` while maintaining nearly the same level of `Healthy Loans '0'` identification.
